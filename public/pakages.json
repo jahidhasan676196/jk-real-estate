@@ -1,0 +1,75 @@
+[
+    {
+      "id": 1,
+      "img": "https://i.ibb.co.com/M6st3L4/estate-1.jpg",
+      "estate_title": "Luxury Penthouse",
+      "segment_name": "High-End Properties",
+      "description": "This luxury penthouse offers an unparalleled living experience, blending contemporary design with ultimate comfort. Featuring expansive windows, it boasts breathtaking cityscape views. The property includes three spacious bedrooms, a gourmet kitchen, and elegant living areas designed for relaxation and entertainment. Amenities such as a private terrace, a gym, and a swimming pool elevate your lifestyle. Located in the heart of Downtown City Center, this penthouse ensures easy access to premium shopping, dining, and cultural venues. Perfect for those seeking exclusivity and sophistication, this is a property that defines luxury living.",
+      "price": 75000,
+      "status": ["sale", "rent"],
+      "area": "3500 sqft",
+      "location": "Downtown City Center",
+      "facilities": ["Gym", "Swimming Pool", "Parking", "24/7 Security", "Terrace"]
+    },
+    {
+      "id": 2,
+      "img": "https://i.ibb.co.com/rmQn6fR/estate-2.jpg",
+      "estate_title": "Cozy Suburban Home",
+      "segment_name": "Family Homes",
+      "description": "This charming suburban home offers three comfortable bedrooms and a spacious living area perfect for family life. The property includes a modern kitchen, a cozy dining space, and a beautiful garden where kids can play. Located in a serene neighborhood, it's ideal for those looking to escape the city's hustle while staying close to essential amenities. A garage, nearby park, and pet-friendly policies enhance the property's appeal. Whether you're looking to rent or invest in a family-friendly home, this Maplewood Suburb residence promises comfort, tranquility, and convenience at an affordable price.",
+      "price": 55000,
+      "status": ["rent"],
+      "area": "1800 sqft",
+      "location": "Maplewood Suburb",
+      "facilities": ["Garden", "Garage", "Nearby Park", "Pet Friendly"]
+    },
+    {
+      "id": 3,
+      "img": "https://i.ibb.co.com/mJ8wcTW/estate-3.jpg",
+      "estate_title": "Modern Studio Apartment",
+      "segment_name": "Urban Rentals",
+      "description": "Designed for the urban professional, this modern studio apartment offers efficient use of space and stylish interiors. Located in the bustling Midtown District, it provides easy access to public transport, shops, and dining. The fully furnished unit includes a cozy sleeping area, a kitchenette, and a modern bathroom. With high-speed internet, rooftop access, and proximity to the metro, this property caters to those seeking convenience and connectivity. Ideal for young professionals or students, this studio offers the perfect blend of affordability and functionality in a vibrant city setting.",
+      "price": 50000,
+      "status": ["rent"],
+      "area": "600 sqft",
+      "location": "Midtown District",
+      "facilities": ["Furnished", "High-Speed Internet", "Close to Metro", "Rooftop Access"]
+    },
+    {
+      "id": 4,
+      "img": "https://i.ibb.co.com/xmbS2Nb/estate-4.jpg",
+      "estate_title": "Beachside Villa",
+      "segment_name": "Luxury Getaways",
+      "description": "Experience the epitome of luxury in this stunning beachside villa, where every detail exudes elegance. With five bedrooms, spacious living areas, and a state-of-the-art kitchen, this home is perfect for hosting family and friends. Step outside to enjoy private beach access, a sparkling pool, and a BBQ area ideal for outdoor entertaining. Smart home features and premium security ensure your peace of mind. Nestled on Seaside Boulevard, this property offers both tranquility and proximity to local attractions. Whether you're seeking a dream home or a vacation retreat, this villa is an unmatched choice.",
+      "price": 85000,
+      "status": ["sale", "rent"],
+      "area": "4500 sqft",
+      "location": "Seaside Boulevard",
+      "facilities": ["Private Pool", "Beach Access", "BBQ Area", "Smart Home Features"]
+    },
+    {
+      "id": 5,
+      "img": "https://i.ibb.co.com/qk4V8sj/estate-5.jpg",
+      "estate_title": "Rustic Countryside Cottage",
+      "segment_name": "Rural Escapes",
+      "description": "Nestled in the heart of Hillside Meadows, this rustic countryside cottage is a haven for nature lovers. The property boasts two bedrooms, a welcoming living area with a fireplace, and a fully equipped kitchen. Outside, you'll find a sprawling garden and nearby walking trails to explore the scenic surroundings. The tranquil setting is perfect for those seeking a peaceful retreat from urban life. With modern amenities and a touch of rural charm, this cottage is ideal for long-term stays or weekend getaways, offering a unique blend of comfort and serenity.",
+      "price": 60000,
+      "status": ["rent"],
+      "area": "1200 sqft",
+      "location": "Hillside Meadows",
+      "facilities": ["Fireplace", "Large Garden", "Walking Trails", "Tranquil Setting"]
+    },
+    {
+      "id": 6,
+      "img": "https://i.ibb.co.com/92J796h/estate-6.jpg",
+      "estate_title": "Executive Office Space",
+      "segment_name": "Commercial Spaces",
+      "description": "This prime office space in the central business district is designed for growing enterprises. Spanning 2,000 sqft, it features modern interiors, conference rooms, and a fully equipped cafeteria. With central air conditioning, ample parking, and 24/7 security, this property ensures a professional and comfortable work environment. Located on Business Park Avenue, it offers excellent accessibility to public transport and other key city locations. Perfect for companies seeking a prestigious address, this office space combines convenience with sophistication, providing the ideal setting for productivity and growth.",
+      "price": 90000,
+      "status": ["sale", "rent"],
+      "area": "2000 sqft",
+      "location": "Business Park Avenue",
+      "facilities": ["Conference Rooms", "Central AC", "Cafeteria", "Parking"]
+    }
+  ]
+  
