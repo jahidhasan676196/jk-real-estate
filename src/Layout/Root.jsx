@@ -5,8 +5,7 @@ import { AuthContext } from '../Context/AuthProvider';
 const Root = () => {
     const jahid=useContext(AuthContext)
     return (
-        <div>
-            <h3>this is roor sections</h3>
+        <div className='max-w-6xl mx-auto'>
             <Outlet></Outlet>
         </div>
     );
