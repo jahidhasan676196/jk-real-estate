@@ -1,10 +1,12 @@
 import React, { useContext } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, Navigate, useLocation } from 'react-router-dom';
 import { IoLogoGoogle } from "react-icons/io";
 import { FaFacebook } from "react-icons/fa";
 import { AuthContext } from '../Context/AuthProvider';
 
 const Login = () => {
+  const location=useLocation()
+  console.log(location);
     const {userLogin,userGoogle}=useContext(AuthContext)
     const handleLoginAccount=(e)=>{
         e.preventDefault()
@@ -16,7 +18,7 @@ const Login = () => {
         // 
         userLogin(email,password)
         .then(result=>{
-            console.log(result.user);
+            Navigate(location?.state ? location.state : '/')
         })
         .catch(error=>{
             console.log(error);

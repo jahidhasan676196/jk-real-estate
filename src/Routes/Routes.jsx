@@ -6,6 +6,8 @@ import About from "../Page/About";
 import Details from "../Component/Details";
 import Login from "../Authentication/Login";
 import Register from "../Authentication/Register";
+import Error from "../NotFound/Error";
+import ProtectedRoute from "../PrivteRoute/ProtectedRoute";
 
 const router = createBrowserRouter([
     {
@@ -14,7 +16,7 @@ const router = createBrowserRouter([
       children:[
         {
           path:"*",
-          element:<h2>element pai nai</h2>
+          element:<Error></Error>
         },
         {
           path:"/",
@@ -31,7 +33,7 @@ const router = createBrowserRouter([
         },
         {
           path:"/details/:userId",
-          element:<Details></Details>,
+          element:<ProtectedRoute><Details></Details></ProtectedRoute>,
           loader:()=>fetch('/pakages.json')
         },
         {
