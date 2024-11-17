@@ -4,6 +4,8 @@ import Home from "../Page/Home";
 import Contract from "../Page/Contract";
 import About from "../Page/About";
 import Details from "../Component/Details";
+import Login from "../Authentication/Login";
+import Register from "../Authentication/Register";
 
 const router = createBrowserRouter([
     {
@@ -31,6 +33,14 @@ const router = createBrowserRouter([
           path:"/details/:userId",
           element:<Details></Details>,
           loader:()=>fetch('/pakages.json')
+        },
+        {
+          path:"/login",
+          element:<Login></Login>
+        },
+        {
+          path:"/register",
+          element:<Register></Register>
         }
       ]
     },
