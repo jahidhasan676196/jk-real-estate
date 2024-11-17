@@ -3,6 +3,7 @@ import Root from "../Layout/Root";
 import Home from "../Page/Home";
 import Contract from "../Page/Contract";
 import About from "../Page/About";
+import Details from "../Component/Details";
 
 const router = createBrowserRouter([
     {
@@ -10,9 +11,13 @@ const router = createBrowserRouter([
       element: <Root></Root>,
       children:[
         {
+          path:"*",
+          element:<h2>element pai nai</h2>
+        },
+        {
           path:"/",
           element:<Home></Home>,
-          loader:()=>fetch('pakages.json')
+          loader:()=>fetch('/pakages.json')
         },
         {
           path:"/contract",
@@ -21,6 +26,11 @@ const router = createBrowserRouter([
         {
           path:"/about",
           element:<About></About>
+        },
+        {
+          path:"/details/:userId",
+          element:<Details></Details>,
+          loader:()=>fetch('/pakages.json')
         }
       ]
     },
